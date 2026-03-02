@@ -1,6 +1,6 @@
 # S3のbucketを作成する
 resource "aws_s3_bucket" "front" {
-  bucket = "terraform-sample-bucket"
+  bucket = "terraform-sample-bucket-ikesan"
 
   tags = {
     Name = "terraform-sample"
