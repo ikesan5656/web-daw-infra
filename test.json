@@ -15,40 +15,40 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "[html]": {
     "editor.tabSize": 2,
-    "editor.insertSpaces": false,
+    "editor.insertSpaces": false
   },
   "[javascript]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true, // ファイル保存時にフォーマットを実行
+    "editor.formatOnSave": true // ファイル保存時にフォーマットを実行
   },
   "[typescriptreact]": {
     "editor.tabSize": 2,
-    "editor.insertSpaces": false,
+    "editor.insertSpaces": false
   },
   "[css]": {
     "editor.tabSize": 2,
-    "editor.insertSpaces": false,
+    "editor.insertSpaces": false
   },
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
     "editor.tabSize": 2,
-    "editor.insertSpaces": false,
+    "editor.insertSpaces": false
   },
   "[terraform-vars]": {
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
     "editor.tabSize": 2,
-    "editor.insertSpaces": false,
+    "editor.insertSpaces": false
   },
   "code-runner.executorMap": {
     "javascript": "node",
@@ -100,16 +100,16 @@
     "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
   },
   "vsicons.dontShowNewVersionMessage": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[python]": {
-    "editor.formatOnType": true,
+    "editor.formatOnType": true
   },
   "explorer.confirmDelete": false,
   "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -117,18 +117,18 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "editor.autoIndent": "advanced",
-    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "github.copilot.enable": {
     "*": false,
     "plaintext": false,
     "markdown": false,
-    "scminput": false,
+    "scminput": false
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "github.copilot.chat.codesearch.enabled": true,
-  "redoclyOpenAPI.features.scorecard": false,
+  "redoclyOpenAPI.features.scorecard": false
 }
